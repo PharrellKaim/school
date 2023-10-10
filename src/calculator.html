@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="calculator">
+        <div id="display"></div>
+        <button onclick="display" id="0">0</button>
+        <button onclick="display" id="1">1</button>
+        <button onclick="display" id="2">2</button>
+        <br>
+        <button onclick="display" id="3">3</button>
+        <button onclick="display" id="4">4</button>
+        <button onclick="display" id="5">5</button>
+        <br>
+        <button onclick="display" id="6">6</button>
+        <button onclick="display" id="7">7</button>
+        <button onclick="display" id="8">8</button>
+        <br>
+        <button onclick="display" id="9">9</button>
+        <button onclick="display" id="delete">c</button>
+        <button onclick="display" id="result">=</button>
+    </div>
+    <div id="output"></div>
+
+    <script>
+        function display() {
+
+        }
+        function output() {
+            let weight = document.getElementById("weight").value;
+            let height = document.getElementById("height").value;
+
+            let bmi = weight / (height * height);
+            document.getElementById("output").innerHTML = bmi;
+        }
+    </script>
+</body>
+</html>
