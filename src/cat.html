@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat</title>
+</head>
+<body>
+    <h1>Cat FACTS</h1>
+    <button id="button" onclick="catFacts()">Get Cat Facts</button>
+    <p id="displayFacts"></p>
+</body>
+<script>
+    async function catFacts() {
+        const response = await fetch("https://catfact.ninja/fact")
+        const data = await response.json();
+        document.getElementById("displayFacts").innerHTML = data.fact;
+    }
+</script>
+</html>
