@@ -1,0 +1,17 @@
+.heading{
+    color: pink;
+}
+.button{
+    background-color: blue;
+    align-items: center;
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.h2{
+    font-size: large;
+    margin-bottom: 5px;
+    align-content: center;
+}
