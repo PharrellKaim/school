@@ -1,17 +1,28 @@
 .heading{
     color: pink;
+    margin-left: 50%;
 }
 .button{
-    background-color: blue;
     align-items: center;
     font-style: italic;
-    color: white;
+    color: blue;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+    display: flex;
+    position: absolute;
+    margin-left: 50%;
 }
 .h2{
     font-size: large;
     margin-bottom: 5px;
     align-content: center;
+    margin-left: 50%;
+}
+
+.weight input{
+    margin-left: 50%;
+}
+.height input{
+    margin-left: 50%;
 }
