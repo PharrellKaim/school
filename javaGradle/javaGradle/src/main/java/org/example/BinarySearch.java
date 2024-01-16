@@ -28,7 +28,6 @@ public class BinarySearch {
 
             mid = (high + low) / 2;
 
-
             if (list.get(mid) < searchedValue) {
                 low = mid +1;
             } else if (list.get(mid) > searchedValue) {
